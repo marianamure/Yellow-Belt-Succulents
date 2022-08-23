@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 900px;
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+}
+.leaf h1{
+    padding:0px 10px;
+}
+.shop button{
+    margin:0px 15px;
+
+}
+.leaf{
+    display:flex;
+    align-items: center;
+    
+}
+.leaf img{
+    background-color:rgb(83, 216, 194);
+    width: 30px;
+    height: 30px;
+}
+input {
+    width: 550px;
+    height: 20px;
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 5px
+}
+.search img{
+    width: 20px;
+    height: 20px;
+}
+.shop img{
+    width: 25px;
+    height: 25px;
+}
+#btn{
+    border:none;
+    background-color: white;
+}
+.option ul {
+    width: 40%;
+    display:flex;
+    list-style:none;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.option ul li {
+    padding: 0px 40px;
+}
+.option ul li a {
+    text-decoration: none;
+    color: black;
+    }
+.option{
+    border-bottom: 4px solid black;
+    padding:3px;
+}
+
+main{
+    width:900px;
+    margin:0 auto;
+    padding: 10px 0px 10px 0px
+    
+}
+.title {
+    text-align: center;
+    padding:10px
+}
+.main-top{
+    display:flex;
+    width:900px;
+    margin:0 auto;
+    justify-content: space-between;
+    /*height: 300px;
+    /*padding: 10px 0px 10px 0px*/
+}
+.left-top{
+    display:flex;
+    width: 60%;
+
+}
+.top1 {
+    background-color: rgb(14, 182, 154);
+    color: white;
+    width: 250px;
+    text-align: center;
+    height: 224px;
+    padding:20px
+    /*height: 250px;*/
+}
+.top2{
+    width: 250px;
+} 
+.top2 img{
+    width: 264px;
+}
+
+.right-top{
+    width: 35%;
+    margin-left:15px;
+}
+.row1 img{
+    width: 100%;
+    padding-bottom:5px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.row2{
+    background-color: rgb(14, 182, 154);
+    color:white;
+    height: 45px;
+    justify-content: left;
+    display:flex;
+}
+
+.main-bottom{
+    display:flex;
+    margin-top: 7px;
+    background-color: aqua;
+    height: 200px;
+    align-items: center;
+    
+    
+}
+.plant {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.plant img {
+    width: 100px;
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.cookie {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    margin: 15px;
+    width: 5%;
+}
+
+footer .text {
+    margin-right: 15px;
+}
+#btn2{
+    border: 3px solid black;
+    background-color: rgb(14, 182, 154);
+    color: white;
+    box-shadow: 3px 3px black;
+    height: 30px;
+    width: 90px;
+    margin-right: 30px;
+}
